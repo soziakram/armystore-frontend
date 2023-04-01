@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Cover from "./components/Cover";
 import CategoryCard from "./components/category/CategoryCard";
+import About from "./components/About";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Cover />
       <CategoryCard />
+      <About/>
       <Footer />
     </>
   );

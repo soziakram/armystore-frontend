@@ -1,9 +1,10 @@
 import React from "react";
 // import "../category/IMG_2358";
+import ButtonSec from "../Button/ButtonSec";
 
 const CategoryCard = () => {
   return (
-    <section className=" p-8 flex flex-col md:flex-row h-screen sm:h-auto">
+    <section className=" p-8 flex flex-col  md:flex-row flex-wrap h-screen sm:h-auto">
       <div class="flex flex-col items-center justify-center w-full max-w-sm mx-auto">
         <div class="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md">
           <img
@@ -19,11 +20,9 @@ const CategoryCard = () => {
 
           <div class="flex items-center justify-between px-3 py-2 bg-gray-200 dark:bg-gray-700">
             <span class="font-bold text-gray-800 dark:text-gray-200">
-              choose
+              ALL PRODUCT
             </span>
-            <button class="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-300 transform bg-gray-800 rounded hover:bg-gray-700 dark:hover:bg-gray-600 focus:bg-gray-700 dark:focus:bg-gray-600 focus:outline-none">
-              open
-            </button>
+            <ButtonSec />
           </div>
         </div>
       </div>
@@ -42,11 +41,9 @@ const CategoryCard = () => {
 
           <div class="flex items-center justify-between px-3 py-2 bg-gray-200 dark:bg-gray-700">
             <span class="font-bold text-gray-800 dark:text-gray-200">
-              choose
+              ALL PRODUCT
             </span>
-            <button class="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-300 transform bg-gray-800 rounded hover:bg-gray-700 dark:hover:bg-gray-600 focus:bg-gray-700 dark:focus:bg-gray-600 focus:outline-none">
-              open
-            </button>
+            <ButtonSec />
           </div>
         </div>
       </div>
@@ -66,11 +63,9 @@ const CategoryCard = () => {
 
           <div class="flex items-center justify-between px-3 py-2 bg-gray-200 dark:bg-gray-700">
             <span class="font-bold text-gray-800 dark:text-gray-200">
-              choose
+              ALL PRODUCT
             </span>
-            <button class="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-300 transform bg-gray-800 rounded hover:bg-gray-700 dark:hover:bg-gray-600 focus:bg-gray-700 dark:focus:bg-gray-600 focus:outline-none">
-              open
-            </button>
+            <ButtonSec />
           </div>
         </div>
       </div>
