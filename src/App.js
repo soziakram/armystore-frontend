@@ -1,5 +1,6 @@
-import logo from "./logo.svg";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Cover from "./components/Cover";
@@ -10,10 +11,19 @@ function App() {
   return (
     <>
       <Navbar />
-      <Cover />
+
+      <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="/about" element={<About />}/>
+        <Route path="/cover" element={<Cover />}/>
+        <Route path="/product" element={<Product />}/>
+        <Route path="/productcard" element={<ProductCard />}/>
+      </Routes>
+
+      {/* <Cover />
       <ProductCard />
         <Product/>
-      <About/>
+      <About/> */}
       <Footer />
     </>
   );
