@@ -3,15 +3,16 @@ import "./App.css";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Cover from "./components/Cover";
-import CategoryCard from "./components/category/CategoryCard";
 import About from "./components/About";
-
+import ProductCard from "./components/category/ProductCard";
+import Product from "./components/product/Product";
 function App() {
   return (
     <>
       <Navbar />
       <Cover />
-      <CategoryCard />
+      <ProductCard />
+        <Product/>
       <About/>
       <Footer />
     </>

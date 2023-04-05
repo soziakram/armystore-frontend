@@ -1,14 +1,14 @@
 import React from "react";
 // import "../category/IMG_2358";
 import ButtonSec from "../Button/ButtonSec";
-
+import boots from "../../asset/image/boots.JPG"
 const CategoryCard = () => {
   return (
     <section className=" p-8 flex flex-col md:flex-row flex-wrap h-screen sm:h-auto">
       <div class=" pb-10 flex flex-col items-center justify-center w-full max-w-sm mx-auto">
         <div class="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md">
           <img
-            src="https://images.unsplash.com/photo-1511989130945-c2b632959395?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+            src={boots}
             alt="category"
           />
         </div>
