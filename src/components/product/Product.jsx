@@ -1,10 +1,11 @@
 import React from "react";
 import boots from "../../asset/image/boots.JPG";
 import boots1 from "../../asset/image/boots1.JPG";
-
 import bootmsh from "../../asset/image/bootmsh.JPG";
 import boots3 from "../../asset/image/boots3.JPG";
 import boots2 from "../../asset/image/boots2.JPG";
+
+import { Link } from "react-router-dom";
 const Product = () => {
   return (
     <>
@@ -157,12 +158,12 @@ const Product = () => {
           </div>
           <div className="flex flex-wrap -mx-2 mb-12">
             <div className="w-full md:w-1/2 h-auto px-2 mb-2 md:mb-0 j">
-              <a
+              <Link
                 className=" block py-4 px-2 leading-8 font-heading font-medium tracking-tighter text-xl text-black text-center bg-green-500 focus:ring-2 focus:ring-green-700 focus:ring-opacity-50 hover:bg-green-600 "
-                href="/"
+                to="/payment"
               >
                 Add to cart
-              </a>
+              </Link>
             </div>
             <div className="w-full md:w-1/2 h-auto px-2">
               <a

@@ -1,5 +1,7 @@
 import React from "react";
 import boots from "../../asset/image/boots.JPG";
+
+import { Link } from "react-router-dom";
 const ProductCard = () => {
   return (
     <div className="max-w-xs  shadow-md dark:bg-gray-900 dark:text-gray-100">
@@ -16,12 +18,12 @@ const ProductCard = () => {
 
         <div className="flex flex-wrap ">
           <div className="w-full md:w-1/2 h-auto ">
-            <a
+            <Link
               className=" block py-4 px-2 leading-8 font-heading font-medium tracking-tighter text-xl text-black text-center bg-green-500 focus:ring-2 focus:ring-green-700 focus:ring-opacity-50 hover:bg-green-600 "
-              href="/"
+              to="/product"
             >
               Add to cart
-            </a>
+            </Link>
           </div>
           <div className="w-full md:w-1/2 h-auto ">
             <a
