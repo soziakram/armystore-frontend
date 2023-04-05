@@ -8,7 +8,7 @@ import boots2 from "../../asset/image/boots2.JPG";
 const Product = () => {
   return (
     <>
-      <section className="w-screen sm:w-auto flex flex-row overflow-hidden justify-around">
+      <section className=" p-10 w-screen sm:w-auto flex flex-row overflow-hidden justify-around">
         <section className=" dark:bg-gray-800 dark:text-gray-50">
           <div className="container flex flex-row p-4 mx-auto md:flex-row">
             <div className="flex flex-col">
@@ -190,7 +190,7 @@ const Product = () => {
           </div>
         </div>
       </section>
-      <section className=" pl-24  text-black mt-24">
+      <section className=" pl-24 m-20 text-black mt-10">
         <h3 className=" text-5xl text-black ">Descripion</h3>
         <p>
           introducing our rugged and durable army boot,
