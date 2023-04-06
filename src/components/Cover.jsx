@@ -1,5 +1,5 @@
-import React from 'react'
-import Button from './Button/Button';
+import React from "react";
+import Button from "./Button/Button";
 const Cover = () => {
   return (
     <section className="relative">
@@ -61,11 +61,12 @@ const Cover = () => {
           </div>
         </div>
       </div>
-      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  flex flex-col place-content-center">
+        <h1 className="text-6xl text-green-100">wellcome to our online shop</h1>
         <Button />
       </div>
     </section>
   );
-}
+};
 
-export default Cover
+export default Cover;

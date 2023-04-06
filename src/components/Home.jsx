@@ -10,7 +10,6 @@ const Home = () => {
                   <Cover />
                   <ProductCard />
                   <About />
-                  <ProductCategory/>
             
             
             </>

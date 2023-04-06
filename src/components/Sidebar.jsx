@@ -5,10 +5,10 @@ const Sidebar = () => {
     <aside className="w-fit p-10 sm:w-60 dark:bg-gray-900 dark:text-gray-100">
       <nav className="space-y-8 text-sm">
         <div className="space-y-4">
-          <h2 className="text-sm w-fit font-extrabold tracking-widest uppercase dark:text-gray-400">
+          <h2 className="text-sm w-fit font-extrabold tracking-widest uppercase dark:text-gray-400 border-b-2 border-b-black">
             OVERVIEW BY CATEGORIES
           </h2>
-          <div className="flex flex-col space-y-1">
+          <div className="flex flex-col space-y-1  border-b-2 border-b-gray-300">
             <a
               className="hover:text-green-600"
               rel="noopener noreferrer"
