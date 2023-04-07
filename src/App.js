@@ -9,7 +9,7 @@ import ProductCard from "./components/category/ProductCard";
 import Product from "./components/product/Product";
 import Payment from "./components/product/Payment";
 import ProductCategory from "./components/category/ProductCategory";
-import CategoryCard from "./components/category/CategoryCard";
+import Categorytype from "./components/category/Categorytype";
 function App() {
   return (
     <>
@@ -21,17 +21,12 @@ function App() {
         <Route path="/cover" element={<Cover />} />
         <Route path="/product" element={<Product />} />
         <Route path="/productcard" element={<ProductCard />} />
-
-        <Route path="/categorycard" element={<CategoryCard />} />
         <Route path="/prductcategory" element={<ProductCategory />} />
-
+        <Route path="/categorytype" element={<Categorytype />} />
         <Route path="/payment" element={<Payment />} />
       </Routes>
 
-      {/* <Cover />
-      <ProductCard />
-        <Product/>
-      <About/> */}
+     
       <Footer />
     </>
   );
