@@ -56,22 +56,26 @@ const Categorytype = () => {
   ];
   return (
     <>
-      <section className="text-gray-700">
-        <div className="container px-2 py-14 mx-auto">
-          <div className="flex flex-wrap -m-4 ">
+      <section className="text-gray-700 p-10">
+        <div className="container px-2 py-14 ">
+          <div className="flex flex-wrap  justify-center -m-4 ">
             {/**categories */}
             {category.map(({ id, imgUrl, name, alt, link }) => (
-              <div key={id} className=" lg:w-1/3 w-1/2 relative  group ">
+              <div
+                key={id}
+                className=" lg:w-1/3 w-1/2 relative hover:border group p-2"
+              >
                 <Link to={`${link}`}>
                   <img
                     src={imgUrl}
                     alt={alt}
                     className="object-cover lg:h-full md:h-36 h-60 w-full  transition-all duration-300 group-hover:bg-gray-700 group-hover:bg-opacity-10 group-hover:blur-sm"
                   />
-                  <div className="absolute inset-0 bg-green-100 opacity-0 hover:opacity-50 transition-opacity">
+                  <div className="absolute inset-0 bg-green-100 bg-opacity-0 opacity-0 hover:bg-opacity-30 hover:opacity-80 transition-opacity">
                     <h1 className=" sm:text-2xl text-xl font-medium uppercase text-black absolute inset-0 flex justify-center items-center ">
                       {name}
                     </h1>
+                   
                   </div>
                 </Link>
               </div>
