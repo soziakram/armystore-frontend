@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Button from "./Button/Button";
 const Cover = () => {
   return (
@@ -17,7 +18,7 @@ const Cover = () => {
                 type="button"
                 className="px-8 py-3 m-2 text-lg font-semibold rounded hover:bg-green-600 bg-green-500 dark:text-gray-50"
               >
-                Shop Now!"
+                <Link to="/prductcategory">Shop Now!"</Link>
               </button>
             </div>
           </div>

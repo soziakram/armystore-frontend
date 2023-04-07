@@ -3,11 +3,12 @@ import Cover from './Cover'
 import ProductCard from './category/ProductCard'
 import Sidebar from './Sidebar'
 import About from './About'
-import ProductCategory from './category/ProductCategory'
+import Categorytype from './category/Categorytype'
 const Home = () => {
       return (
             <>
                   <Cover />
+                  <Categorytype/>
                   <ProductCard />
                   <About />
             
