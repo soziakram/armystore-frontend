@@ -72,7 +72,7 @@ const Categorytype = () => {
                     className="object-cover lg:h-full md:h-36 h-60 w-full  transition-all duration-300 group-hover:bg-gray-700 group-hover:bg-opacity-10 group-hover:blur-sm"
                   />
                   <div className="absolute inset-0 bg-green-100 bg-opacity-0 opacity-0 hover:bg-opacity-30 hover:opacity-80 transition-opacity">
-                    <h1 className=" sm:text-2xl text-xl font-medium uppercase text-black absolute inset-0 flex justify-center items-center ">
+                    <h1 className=" font-turney sm:text-2xl text-xl font-medium uppercase text-black absolute inset-0 flex justify-center items-center ">
                       {name}
                     </h1>
                    
