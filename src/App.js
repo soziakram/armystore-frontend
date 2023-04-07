@@ -9,6 +9,7 @@ import ProductCard from "./components/category/ProductCard";
 import Product from "./components/product/Product";
 import Payment from "./components/product/Payment";
 import ProductCategory from "./components/category/ProductCategory";
+import CategoryCard from "./components/category/CategoryCard";
 function App() {
   return (
     <>
@@ -21,7 +22,8 @@ function App() {
         <Route path="/product" element={<Product />} />
         <Route path="/productcard" element={<ProductCard />} />
 
-        <Route path="/prductcategory" element={<ProductCategory/>} />
+        <Route path="/categorycard" element={<CategoryCard />} />
+        <Route path="/prductcategory" element={<ProductCategory />} />
 
         <Route path="/payment" element={<Payment />} />
       </Routes>
