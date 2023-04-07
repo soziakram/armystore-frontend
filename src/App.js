@@ -10,6 +10,7 @@ import Product from "./components/product/Product";
 import Payment from "./components/product/Payment";
 import ProductCategory from "./components/category/ProductCategory";
 import Categorytype from "./components/category/Categorytype";
+import Contactus from "./components/Contactus"
 function App() {
   return (
     <>
@@ -24,9 +25,9 @@ function App() {
         <Route path="/prductcategory" element={<ProductCategory />} />
         <Route path="/categorytype" element={<Categorytype />} />
         <Route path="/payment" element={<Payment />} />
+        <Route path="/contactus" element={<Contactus/>} />
       </Routes>
 
-     
       <Footer />
     </>
   );

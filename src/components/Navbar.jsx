@@ -25,10 +25,10 @@ const Navbar = () => {
             <li className="flex">
               <Link
                 rel="noopener noreferrer"
-                to="about"
+                to="contactus"
                 className="flex items-center px-4 -mb-1 hover:border-b-2 dark:border-transparent hover:text-green-200 focus:text-green-400  activ:text-green-200   hover:border-green-100"
               >
-                About
+                contact us
               </Link>
             </li>
             <li className="flex">
