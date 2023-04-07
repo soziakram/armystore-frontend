@@ -56,14 +56,14 @@ const Categorytype = () => {
   ];
   return (
     <>
-      <section className="text-gray-700 p-10">
+      <section className="text-gray-700 ">
         <div className="container px-2 py-14 ">
-          <div className="flex flex-wrap  justify-center -m-4 ">
+          <div className="flex flex-wrap  justify-around -m-4 ">
             {/**categories */}
             {category.map(({ id, imgUrl, name, alt, link }) => (
               <div
                 key={id}
-                className=" lg:w-1/3 w-1/2 relative hover:border group p-2"
+                className=" lg:w-1/3 w-1/2 relative border group p-2"
               >
                 <Link to={`${link}`}>
                   <img
