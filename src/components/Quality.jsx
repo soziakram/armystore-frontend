@@ -2,8 +2,8 @@ import React from 'react'
 
 const Quality = () => {
   return (
-    <section className="dark:bg-gray-800 dark:text-gray-100">
-      <div className="container flex flex-col-reverse justify-between mx-auto lg:flex-row">
+    <section className="bg-gray-200 h-screen  dark:text-gray-100">
+      <div className="container flex flex-col-reverse justify-between items-center lg:pt-40 ms:pt-0 mx-auto lg:flex-row">
         <div className="flex flex-col px-6 py-8 space-y-6 rounded-sm sm:p-8 lg:p-12 lg:w-1/2 xl:w-2/5 dark:bg-violet-400 dark:text-gray-900">
           <h1 className='text-5xl bold '>high quality tactical equipments</h1>
           <p className='text-s'>
