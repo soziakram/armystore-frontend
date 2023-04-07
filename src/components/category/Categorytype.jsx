@@ -9,7 +9,7 @@ const Categorytype = () => {
       imgUrl: boots,
       name: "boots",
       alt: "boots",
-      link: "product",
+      link: "prductcategory",
     },
     {
       id: 2,
@@ -17,6 +17,8 @@ const Categorytype = () => {
         "https://s.alicdn.com/@sc04/kf/H9084aad5928342d98176f560b0a984c2I.jpg_960x960.jpg",
       name: "hat",
       alt: "hat",
+
+      link: "prductcategory",
     },
     {
       id: 3,
@@ -24,6 +26,8 @@ const Categorytype = () => {
         "https://s.alicdn.com/@sc04/kf/Hd03a697abc7c451ab7edbba015efb6e46.jpg_960x960.jpg",
       name: "uniform",
       alt: "uniform",
+
+      link: "prductcategory",
     },
     {
       id: 4,
@@ -31,6 +35,7 @@ const Categorytype = () => {
         "https://s.alicdn.com/@sc04/kf/H598310bd5b254b78a39a9d21bd26cd20H.jpg_960x960.jpg",
       name: "bags",
       alt: "bags ",
+      link: "prductcategory",
     },
     {
       id: 5,
@@ -38,6 +43,7 @@ const Categorytype = () => {
         "https://s.alicdn.com/@sc04/kf/H263720e594d44e81bb6f2baee423fc1cY.jpg_960x960.jpg",
       name: "equipments",
       alt: "equipments",
+      link: "prductcategory",
     },
     {
       id: 6,
@@ -45,6 +51,7 @@ const Categorytype = () => {
         "https://s.alicdn.com/@sc04/kf/H2e35deded8094fd2b7fb2e0988ab860bs.jpg_960x960.jpg",
       name: "outdoors",
       alt: "outdoor",
+      link: "prductcategory",
     },
   ];
   return (

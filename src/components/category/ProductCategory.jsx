@@ -6,14 +6,6 @@ const ProductCategory = () => {
         <section className="flex flex-row justify-between space-x-36">
           <Sidebar />
           <div className="flex flex-wrap space-y-6 space-x-2">
-    
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
             <ProductCard />
           </div>
         </section>

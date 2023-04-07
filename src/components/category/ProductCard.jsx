@@ -49,13 +49,12 @@ const ProductCard = () => {
       alt: "equipments",
       price: "19$",
     },
-  
   ];
 
   return (
-    <section className="text-gray-700">
-      <div className="container px-2 py-14 mx-auto">
-        <div className="flex flex-wrap -m-4 ">
+    <section className="text-gray-700 ">
+      <div className="container px-2 py-14 mx-auto mb-10">
+        <div className="flex flex-wrap -m-4 justify-center space-y-2 space-x-2 ms:flex-row">
           {category.map(({ id, imgUrl, name, category, alt, link, price }) => (
             <div className="max-w-xs  shadow-md dark:bg-gray-900 dark:text-gray-100">
               <img
@@ -63,7 +62,7 @@ const ProductCard = () => {
                 alt=""
                 className="object-cover object-center w-full  h-72 dark:bg-gray-500"
               />
-              <div className="flex flex-col justify-between p-6 space-y-8">
+              <div className="flex flex-col justify-between   bg-white p-6 space-y-8">
                 <div className="space-y-2">
                   <h2 className="text-3xl font-extrabold bold tracking-wide">
                     {name}
