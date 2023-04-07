@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className="container flex justify-between h-16 mx-auto">
           <a href="/" className="flex items-center">
             <span className="self-center font-turney text-2xl font-semibold whitespace-nowrap text-green-600 font- dark:text-white">
-              Army Store
+              <span className="text-4xl">A</span>rmy Store
             </span>
           </a>
 
